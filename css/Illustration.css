@@ -1,0 +1,22 @@
+.illus-size-2rem {
+  width: 15rem;
+}
+
+.illus-size-2rem img {
+  width: 100%;
+}
+
+#page-lib{
+  position: absolute;
+  background-color: #f1f5fc;
+  width: 15em;
+  max-height: 20em;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px 0px rgba(161, 161, 161, 1);;
+}
+.mask{
+  z-index: -2;
+}
+.demask{
+  z-index: 2;
+}

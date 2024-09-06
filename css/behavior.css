@@ -1,0 +1,67 @@
+.pointer {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: var(--text-color);
+}
+
+.icon:hover {
+  background-color: var(--hover-color-icon);
+}
+
+.im-blue {
+  background-color: var(--second-light-color);
+  color: var(--hover-color-component);
+}
+
+.im-blue:hover {
+  background-color: #c5e4fd;
+  color: #e4edff;
+}
+.ic-blue {
+  color: var(--primary-color);
+}
+
+.ic-blue:hover {
+  background-color: var(--second-light-color);
+}
+
+.ic-white{
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: rgb(87, 87, 87);
+}
+.ic-white:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+.f-size-10em {
+  font-size: 10em;
+}
+
+.f-size-1em {
+  font-size: 1em;
+
+}
+
+.bor-r-50 {
+  border-radius: 50%;
+}
+
+.clr-add {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.2em;
+}

@@ -1,0 +1,21 @@
+.bg-page-full {
+  background-color: var(--background-color);
+}
+
+.main-section {
+  background-color: var(--white);
+  min-height: 85vh;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  transition: 1s;
+}
+
+.bg-page-libelle{
+  background: grey;
+  opacity: .4;
+
+}
+.bg-page-libelle+div{
+  background: white;
+}
+

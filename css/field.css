@@ -1,0 +1,83 @@
+.input-field input,
+.input-field input:focus {
+  border: initial;
+  background-color: initial;
+  outline: none;
+}
+
+.input-field {
+  padding: 0.5rem;
+  width: 40%;
+  height: 3rem;
+  border-radius: var(--border-radius);
+}
+
+.entry-field {
+  position: relative;
+  margin: .8em 0;
+  height: 40px;
+  line-height: 80px;
+}
+
+.input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 1.1em;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  z-index: 1;
+  border: 1px solid var(--text-color);
+  transition: 0.1s ease;
+  background-color: transparent;
+}
+
+.input-select {
+  border: 1px solid var(--text-color);
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.input-select:focus {
+  border: 3px solid var(--primary-color);
+}
+
+.label-field {
+  position: absolute;
+  font-size: 1.1em;
+  margin: 0 17px;
+  color: var(--text-color);
+  transition: 0.2s ease;
+  line-height: 40px;
+}
+
+.input:focus {
+  border: 3px solid var(--primary-color);
+  z-index: 0;
+}
+
+.input:valid+.label-field {
+  color: var(--text-color);
+  line-height: 3px;
+  background-color: var(--white);
+  font-size: .8em;
+}
+
+.input:focus+.label-field{
+  color: var(--primary-color);
+  font-size: .8em;
+  background-color: var(--white);
+  line-height: 3px;
+  padding: 0 2px;
+}
+
+.input:valid {
+  z-index: 0;
+}
+
+
+.error-field {
+  /* Erreur, si champs non saisi */
+  border: 3px solid red;
+}

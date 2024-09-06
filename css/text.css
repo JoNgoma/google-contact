@@ -1,0 +1,72 @@
+.title {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+.title span {
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: wavy;
+}
+
+.title-level-1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.title-level-2 {
+  font-size: 1rem;
+}
+
+.title-level-3{
+  font-size: 0.95rem;
+}
+
+.title-level-4 {
+  font-size: 0.875rem;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.w-h-100vh+div>h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#page-lib>h3 {
+  padding: 1em 2em .2em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+#page-lib>div {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#page-lib>div>div {
+  padding: .6em 2em;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+
+#page-lib>div>div:hover {
+  background-color: var(--hover-color-icon);
+
+}
+
+.selected{
+  color: green;
+  font-weight: 700;
+}
+.normal{
+  color: black;
+  font-weight: 400;
+}
